@@ -55,10 +55,6 @@ function Books() {
                 <div class="flex justify-center mx-auto max-w-7xl px-6 lg:px-8  ">
                     <input onChange={filter} class="py-2 px-2 border-2 border-[#0a2415] rounded-md" type='text' placeholder='Search a title or name or Author'></input>
                 </div>
-
-                <div>
-                    <button class="p-2 rounded-md bg-[#0a2415] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#85d099] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d9f513dd]m-4 transform hover:scale-110">Search</button >
-                </ div >
             </ div >
             {selectedBook && (
 
@@ -110,5 +106,12 @@ function Books() {
                     }
                 </table>
             </div>
-        </div>)}
+            <div class="mt-10 flex items-center justify-center gap-x-6">
+                    <Link to="/Formulario"class="p-4 rounded-md bg-[#0a2415] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#85d099] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d9f2dd]">Would you like a title?
+
+                    </Link>
+                </div>
+        </div >)
+}
+
 export default Books;
