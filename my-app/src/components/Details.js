@@ -1,8 +1,8 @@
 import React from "react";
 function Details(){
     const [{ books }, dispatch] = useStateValue();
-    const { url } = useParams()
-    const bookselecter = books.filter(book => book.url === url)  
+    const { name } = useParams()
+    const bookselecter = books.filter(book => book.name === name)  
     return(
         <div>
            {bookselecter.lenght>0?
