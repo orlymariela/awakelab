@@ -1,11 +1,13 @@
-
-import './index.css';
-import {BrowserRouter,Routes,Route, Form} from "react-router-dom";
-import Navbar from './components/Navbar';
-import Books from './components/Books';
-import Home from './components/Home'
 import React from "react";
 
+import './index.css';
+
+import {BrowserRouter,Routes,Route, Form} from "react-router-dom";
+
+import Navbar from './components/Navbar';
+import Books from './components/Books';
+import Home from './components/Home';
+import Formulario from './components/Formulario';
 
 function App() {
  
@@ -15,9 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={ <Home/>} /> 
         <Route path="/books" element={ <Books/>} />   
-        <Route path="/Form" element={<Form/>}/>  
+        <Route path="/Formulario" element={ <Formulario/>} />  
      
-
       </Routes>
      
     </BrowserRouter> 

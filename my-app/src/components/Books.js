@@ -75,7 +75,7 @@ function Books() {
 
                 <div class="mt-10 flex items-center justify-center gap-x-6">
                     <p>Quieres agregar un libro?</p>
-                    <Link to="/Form" class="p-4 rounded-md bg-[#0a2415] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#85d099] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d9f2dd]">More...
+                    <Link to="/Formulario" class="p-4 rounded-md bg-[#0a2415] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#85d099] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d9f2dd]">More...
 
                     </Link>
 
